@@ -1,0 +1,16 @@
+nav {
+    background-color: #2FBEC2;
+}
+
+.nav-link {
+    color: white;
+    border: 4px solid;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border: 4px solid white;
+    color: #2FBEC2;
+}

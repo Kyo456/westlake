@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet/styles.css">
+        <title>Contacts</title>
+    </head>
+    <body>
+        <header class="col-12 py-2 ps-2">
+            <div class="row mx-0">
+                <div class="header-logo-container col-3 col-sm-2 col-lg-1 d-flex align-items-center">
+                    <img src="Images/LogoBlack.png" alt="RBOCC Logo" class="header-logo">
+                </div>
+                <div class="header-title col-9 col-md-4 col-lg-4 col-xl-3 col-xxl-3 d-md-flex align-items-center d-flex">
+                    <h1 class="d-block d-md-none fs-1 fw-bold mb-0">
+                        RBOCC
+                    </h1>
+                    <h1 class="d-none d-md-block d-xl-none fs-4 fw-bold mb-0">
+                        Red Beach Outrigger Canoe Club
+                    </h1>
+                    <h1 class="d-none d-xl-block d-xxl-none fs-3 fw-bold mb-0">
+                        Red Beach Outrigger Canoe Club
+                    </h1>
+                    <h1 class="d-none d-xxl-block fs-2 fw-bold mb-0">
+                        Red Beach Outrigger Canoe Club
+                    </h1>
+                </div>
+            </div>
+        </header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav mx-auto">
+    
+                        <hr class="d-block d-lg-none ms-auto mt-3 m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </div>
+    
+                        <hr class="d-block d-lg-none ms-auto m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link" href="safety.html">Safety</a>
+                        </div>
+    
+                        <hr class="d-block d-lg-none ms-auto m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </div>
+    
+                        <hr class="d-block d-lg-none ms-auto m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link" href="portal.html">Club Portal</a>
+                        </div>
+    
+                        <hr class="d-block d-lg-none ms-auto m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link" href="fees.html">Fees</a>
+                        </div>
+    
+                        <hr class="d-block d-lg-none ms-auto m-0 col-10">
+    
+                        <div class="nav-item border-end text-end me-2 me-md-0 my-3 my-lg-0">
+                            <a class="nav-link active" href="contact.html">Contacts</a>
+                        </div>
+                        
+                        <hr class="d-block d-lg-none ms-auto m-0 col-12 mb-0">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Banner. -->
+        <div id="banner" class="row col-12 col-md-10 col-lg-8 card mx-auto border-0 mb-3">
+            <img class="card-img p-0" src="Images/waka_prep.jpg" alt="Images of a men preparing a Waka Ama boat.">
+            <div class="overlay-text card-img-overlay d-flex align-items-center justify-content-center">
+                <h1 class="fw-bold text-white">Contact Form</h1>
+            </div>
+        </div>
+    
+        <!-- Contact Header. -->
+        <section class="py-3 py-md-5">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                        <h2 class="mb-4 display-5 text-center">Contact</h2>
+                        <p class="text-secondary mb-5 text-center">The best way to contact us is to use our contact form below. Please fill out all of the required fields and we will get back to you as soon as possible.</p>
+                        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Contact Form. -->
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="bg-white border rounded shadow-sm overflow-hidden">
+                
+                            <form>
+                                <div class="row gy-4 gy-xl-5 p-5 p-md-4 p-xl-5">
+
+                                    <!-- Name Box. -->
+                                    <div class="col-12">
+                                        <label class="form-label">Full Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control contact-blue" name="fullname" required>
+                                    </div>
+
+                                    <!-- Email Box. -->
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Email <span class="text-danger">*</span></label>
+                                        <div class="input-group">
+
+                                            <!-- Email Icon. -->
+                                            <span class="input-group-text">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                                </svg>
+                                            </span>
+                                            <input type="email" class="form-control contact-blue" name="email" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Phone Box. -->
+                                    <div class="col-12 col-md-6">
+                                        <label class="form-label">Phone Number </label>
+                                        <div class="input-group">
+
+                                            <!-- Phone Icon. -->
+                                            <span class="input-group-text">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                                </svg>
+
+                                            </span>
+                                            <input type="tel" class="form-control contact-blue" name="phone">
+                                        </div>
+                                    </div>
+
+                                    <!-- Message Box. -->
+                                    <div class="col-12">
+                                        <label class="form-label">Message <span class="text-danger">*</span></label>
+                                        <textarea class="form-control contact-blue" name="message" rows="3" required></textarea>
+                                    </div>
+
+                                    <!-- Submit Button. -->
+                                    <div class="col-12">
+                                        <div class="d-grid">
+                                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="bg-dark row text-white p-4 mx-0">
+            <div class="col-6 my-md-4 text-center">
+                <a href="index.html">
+                    <img class="col-8 col-md-5 col-xl-2" src="Images/RBOCC_BLACKONWHITE.png" alt="Logo">
+                </a>
+                <div class="row navbar-nav mt-4 fs-6 d-block d-md-none fw-semibold text-decoration-underline">
+                    <div class="row mx-auto">
+                        <div class="col-6 p-0">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="safety.html">Safety</a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a class="nav-link" href="fees.html">Fees</a>
+                            <a class="nav-link" href="portal.html">Portal</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row navbar-nav mt-4 fs-4 d-none d-md-block fw-semibold text-decoration-underline">
+                    <div class="row mx-auto">
+                        <div class="col-6 p-0">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="safety.html">Safety</a>
+                        </div>
+                        <div class="col-6 p-0">
+                            <a class="nav-link" href="fees.html">Fees</a>
+                            <a class="nav-link" href="portal.html">Club Portal</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-block d-md-none">
+                    <div class="row mt-2">
+                        <div class="col-12 my-2">
+                            <a href="">
+                                <img class="col-3" src="Images/instagram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12 my-3">
+                            <a href="">
+                                <img class="col-3" src="Images/youtube.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12 my-2">
+                            <a href="">
+                                <img class="col-3" src="Images/facebook.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 my-md-4">
+                <div class="col-12 mx-auto fs-6 d-block d-md-none">
+                    <p class="fw-bold">Red Beach Outrigger Canoe Club is located at:</p>
+                    <p>Ngapara Street Red Beach<br>Whangaparoa<br>Auckland 0932</p>
+                    <p class="fw-bold">Emergency Phone Numbers:</p>
+                    <p class="fw-semibold my-0">Police</p>
+                    <p>If it's happening now<br>Call 111<br>If it's already happened<br>Call 105</p>
+                    <p class="fw-semibold my-0">Coastguard</p>
+                    <p>Call 09 303 9368</p>
+                </div>
+                <div class="col-10 mx-auto fs-5 d-none d-md-block">
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <p class="fw-bold">Red Beach Outrigger Canoe Club is located at:</p>
+                            <p>Ngapara Street Red Beach<br>Whangaparoa<br>Auckland 0932</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="fw-bold">Emergency Phone Numbers:</p>
+                            <p class="fw-semibold my-0">Police</p>
+                            <p>If it's happening now<br>Call 111<br>If it's already happened<br>Call 105</p>
+                            <p class="fw-semibold my-0">Coastguard</p>
+                            <p>Call 09 303 9368</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <div class="row justify-content-center text-center mt-2">
+                    <div class="col-3 my-2">
+                        <a href="">
+                            <img class="col-4 col-lg-3 col-xl-2" src="Images/instagram.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3 my-3">
+                        <a href="">
+                            <img class="col-4 col-lg-3 col-xl-2" src="Images/youtube.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3 my-2">
+                        <a href="">
+                            <img class="col-4 col-lg-3 col-xl-2" src="Images/facebook.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

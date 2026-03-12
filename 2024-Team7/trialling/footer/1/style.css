@@ -1,0 +1,5 @@
+footer .navbar-nav a:hover {
+    border-radius: 12px;
+    background-color: #616161;
+    transition: 0.5s;
+}

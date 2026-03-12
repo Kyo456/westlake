@@ -1,0 +1,11 @@
+.nav-link {
+    margin: 0 15px;
+    font-size: 22px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    margin: 0 28px;
+    font-size: 26px;
+}
